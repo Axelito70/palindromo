@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenguajes y aotomatas II</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylyes.css">
+</head>
+<body>
+
+    <div class="container text-center">
+        <h1 class="display-4 text-light">Verificador de Palíndromos</h1>
+        <p class="lead text-light">Ingresa una palabra y verifica si es un palíndromo.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <input type="text" id="inputPalabra" class="form-control form-control-lg" placeholder="Escribe una palabra">
+                <button class="btn btn-warning btn-lg mt-3" onclick="verificarPalindromo()">Verificar</button>
+                <div id="resultado" class="result mt-3"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

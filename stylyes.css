@@ -1,0 +1,31 @@
+html, body {
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+
+.container {
+    margin-top: 100px;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5); 
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.palindrome {
+    color: #28a745; 
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.not-palindrome {
+    color: #dc3545; 
+    font-weight: bold;
+    font-size: 1.5rem;
+}
